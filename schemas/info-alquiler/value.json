@@ -1,0 +1,23 @@
+{
+    "doc": "Schema de las transacciones de alquiler",
+    "fields": [
+      {
+        "doc": "precio del alquiler por mes",
+        "name": "precioMensual",
+        "type": "double"
+      },
+      {
+        "doc": "nombre del locatario",
+        "name": "locatario",
+        "type": "string"
+      },
+      {
+        "doc": "nombre de locador",
+        "name": "locador",
+        "type": "string"
+      }
+    ],
+    "name": "Alquileres",
+    "namespace": "com.mycorp.mynamespace",
+    "type": "record"
+  }
